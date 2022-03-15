@@ -1,0 +1,247 @@
+/*this is header section*/
+*{margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.head{
+    background-color: #23232e;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    padding-top: 10%;
+}
+.img1{
+   
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+.head h1{
+    text-align: center;
+    color: #fff;
+   text-transform: capitalize;
+}
+.head h3{
+    text-align: center;
+    color: #fff;
+    font-size: 10px;
+    
+    
+}
+.icon1{
+  
+    display: block;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+    border: 2px solid #fff;
+    border-radius: 55%;
+    width: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    
+}
+/*2nd div*/
+.about{
+    background-color: #fff;
+    text-align: center;
+    margin:80px;
+}
+.container h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+
+}
+.col-sm h3{
+    font-size: 25px;
+    text-align: left;
+}
+.col-sm p{
+    text-align: left;
+}
+.navbar ul{
+    list-style: none;
+     background: none;
+     padding-left: 270px;
+     margin: 0;
+     text-align: center;
+}
+.navbar li{
+    display: inline-block;
+    text-align: center;
+}
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+    width: 100px;
+    display: block;
+    padding: 25px 20px;
+    font-size:8px ;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.navbar a:hover{
+    background: black;
+}
+.work{
+    background: #23232e;
+}
+.work h2{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 120px;
+}
+.col-4 img{
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+}
+.col-4 p{
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+}
+.col-4 h4{
+    color: #fff;
+    text-align: center;
+    font-size: 10px;
+}
+.button1{
+    text-align: center;
+    color: #fff;
+    background-color:#7b77c9;
+    border: none;
+    padding: 7px;
+    border-radius: 5%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.btn{
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 150px;
+    margin-left: 460px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+/*photography*/
+.gallery h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #464b4f;
+    padding-top: 30px;
+}
+.gallery p{
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 15px;
+    color: #464b4f;
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+.gallery i{
+   
+    font-size: 100px;
+    line-height: 40px;
+    color: #fff;
+  
+}
+.gallery button{
+    margin-left: 80px;
+}
+.subscribe{
+    color: #fff;
+    text-align: center;
+    height: 500px;
+}
+
+.subscribe p{
+    font-size: 20px;
+    
+    font-weight: 300;
+}
+.camera{
+    padding-top: 100px;
+    padding-bottom: 20px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size: 100px;
+}
+.email-box{
+    justify-content: center;
+    height: 40px;
+    display: flex;
+    
+}
+.email-box:hover > .tbox,.tbox:focus{
+ width: 260px;
+ padding: 0 10px;
+}
+.email-box i{
+    background: rgb(5, 2, 2);
+    width: 40px;
+    line-height: 40px;
+    color: #fff;
+
+}
+.tbox, .baku{
+    border: none;
+    outline: none;
+}
+.tbox{
+    width: 0px;
+    transition: 0.6s;
+    
+}
+.baku{
+    background: #7b77c9;
+    columns: #fff;
+    padding: 0 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 10% ;
+}
+.foot{
+    text-align: center;
+    color: #464b4f;
+    padding-top: 80px;
+}
+.foot p{
+    color: #aeaeae;
+    font-size: 15px;
+    font-weight: 100;
+}
+.social ul li{
+    list-style: none;
+    display: inline-flex;
+     margin: 10px;
+    
+    
+    
+}
+.icn3{
+    color: #dbdbdb;
+   padding: 50%;
+   font-size: 30PX;
+   text-align: center;
+  text-decoration: none;
+  display: inline-flex;
+  
+}
+.icn3:hover{
+    opacity: 0.7;
+    color: #23232e;
+}
